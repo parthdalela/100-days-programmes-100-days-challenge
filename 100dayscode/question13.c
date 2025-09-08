@@ -11,7 +11,7 @@ int main()
             printf("year entered is a leap year");
         }
     }
-    if(year%400==0)
+    else if(year%400==0)
     {
         printf("entered year is a leap year");
     }
@@ -19,4 +19,5 @@ int main()
           printf("year entered is not a leap year");
     }
     return 0;
+
 }
